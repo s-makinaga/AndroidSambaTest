@@ -11,18 +11,6 @@ import java.net.UnknownHostException;
 import jcifs.smb.SmbException;
 import jcifs.smb.SmbFileInputStream;
 
-/**
- * 使い方
- *
- * JsonLoader task = new JsonLoader();
- * task.setOnCallBack(new CallBackJson(){
- *     @Override
- *     public void CallBack(String Result) {
- *         Toast.makeText(TopActivity.this, Result, 800).show();
- *     };
- * });
- * task.execute(RSS_FEED_URL);
- */
 public class SambaLoader extends AsyncTask<String, Integer, String> {
 
 
